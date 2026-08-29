@@ -1,0 +1,667 @@
+INFO  @ Thu, 27 Aug 2026 23:22:19: Parameters: /home/waqas/miniconda3/envs/crispr/bin/mageck count -l GeCKOv2_library_mageck.csv -n zhuang --sample-label Low_Ctrl_1,Low_Surv_1,Low_Ctrl_2,Low_Surv_2,High_Ctrl,High_1,High_2 --fastq SRR10338906.fastq.gz SRR10338907.fastq.gz SRR10338908.fastq.gz SRR10338909.fastq.gz SRR10338910.fastq.gz SRR10338911.fastq.gz SRR10338912.fastq.gz --trim-5 auto 
+INFO  @ Thu, 27 Aug 2026 23:22:19: Welcome to MAGeCK v0.5.9.5. Command: count 
+INFO  @ Thu, 27 Aug 2026 23:22:19: Loading 119461 predefined sgRNAs. 
+WARNING @ Thu, 27 Aug 2026 23:22:19: There are 3950 sgRNAs with duplicated sequences. 
+INFO  @ Thu, 27 Aug 2026 23:22:19: Parsing FASTQ file SRR10338906.fastq.gz... 
+INFO  @ Thu, 27 Aug 2026 23:22:19: Determining the trim-5 length of FASTQ file SRR10338906.fastq.gz... 
+INFO  @ Thu, 27 Aug 2026 23:22:19: Possible gRNA lengths:20 
+INFO  @ Thu, 27 Aug 2026 23:22:19: Processing 0M reads ... 
+INFO  @ Thu, 27 Aug 2026 23:22:22: Read length:80 
+INFO  @ Thu, 27 Aug 2026 23:22:22: Total tested reads: 100001, mapped: 69008(0.6900730992690073) 
+INFO  @ Thu, 27 Aug 2026 23:22:22: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 43	8861	0.12840540227220032 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 48	8666	0.125579642939949 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 44	8236	0.11934848133549733 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 46	8215	0.11904416879202412 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 45	8140	0.11795733827961975 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 47	7787	0.1128419893345699 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 51	4867	0.07052805471829353 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 49	4585	0.06644157199165314 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 50	4512	0.06538372362624623 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 52	4336	0.06283329469047066 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 42	532	0.007709251101321586 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 41	54	0.0007825179689311384 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 53	49	0.0007100626014375145 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 55	19	0.00027533039647577095 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 39	18	0.00026083932297704616 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 40	18	0.00026083932297704616 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 57	13	0.0001883839554834222 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 54	13	0.0001883839554834222 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 58	12	0.00017389288198469742 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 59	12	0.00017389288198469742 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 56	12	0.00017389288198469742 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 38	9	0.00013041966148852308 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 36	6	8.694644099234871e-05 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 37	5	7.245536749362393e-05 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 60	5	7.245536749362393e-05 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 34	4	5.796429399489914e-05 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 35	4	5.796429399489914e-05 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 33	3	4.3473220496174354e-05 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 32	3	4.3473220496174354e-05 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 31	3	4.3473220496174354e-05 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 20	2	2.898214699744957e-05 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 29	1	1.4491073498724785e-05 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 30	1	1.4491073498724785e-05 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 25	1	1.4491073498724785e-05 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 17	1	1.4491073498724785e-05 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 27	1	1.4491073498724785e-05 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 28	1	1.4491073498724785e-05 
+INFO  @ Thu, 27 Aug 2026 23:22:22: 26	1	1.4491073498724785e-05 
+INFO  @ Thu, 27 Aug 2026 23:22:22: Auto determination of trim5 results: 43,48,44,46,45,47,51 
+INFO  @ Thu, 27 Aug 2026 23:22:22: Possible gRNA lengths:20 
+INFO  @ Thu, 27 Aug 2026 23:22:22: Processing 0M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:22:28: Processing 1M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:22:33: Processing 2M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:22:39: Processing 3M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:22:46: Processing 4M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:22:51: Processing 5M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:22:57: Processing 6M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:23:01: Processing 7M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:23:06: Processing 8M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:23:12: Processing 9M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:23:17: Processing 10M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:23:22: Processing 11M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:23:27: Processing 12M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:23:32: Processing 13M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:23:38: Processing 14M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:23:43: Processing 15M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:23:48: Processing 16M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:23:54: Processing 17M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:24:00: Processing 18M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:24:05: Processing 19M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:24:10: Processing 20M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:24:15: Processing 21M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:24:20: Processing 22M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:24:25: Processing 23M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:24:30: Processing 24M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:24:36: Processing 25M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:24:41: Processing 26M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:24:46: Processing 27M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:24:51: Processing 28M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:24:56: Processing 29M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:25:01: Processing 30M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:25:07: Processing 31M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:25:12: Processing 32M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:25:18: Processing 33M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:25:23: Processing 34M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:25:28: Processing 35M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:25:32: Processing 36M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:25:38: Processing 37M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:25:43: Processing 38M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:25:48: Processing 39M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:25:53: Processing 40M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:25:58: Processing 41M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:26:03: Processing 42M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:26:08: Processing 43M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:26:14: Processing 44M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:26:19: Processing 45M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:26:24: Processing 46M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:26:29: Processing 47M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:26:34: Processing 48M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:26:39: Processing 49M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:26:44: Total: 49933559. 
+INFO  @ Thu, 27 Aug 2026 23:26:44: Mapped: 26522030. 
+INFO  @ Thu, 27 Aug 2026 23:26:45: Parsing FASTQ file SRR10338907.fastq.gz... 
+INFO  @ Thu, 27 Aug 2026 23:26:45: Determining the trim-5 length of FASTQ file SRR10338907.fastq.gz... 
+INFO  @ Thu, 27 Aug 2026 23:26:45: Possible gRNA lengths:20 
+INFO  @ Thu, 27 Aug 2026 23:26:45: Processing 0M reads ... 
+INFO  @ Thu, 27 Aug 2026 23:26:48: Read length:80 
+INFO  @ Thu, 27 Aug 2026 23:26:48: Total tested reads: 100001, mapped: 68538(0.6853731462685373) 
+INFO  @ Thu, 27 Aug 2026 23:26:48: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 48	8573	0.1250838950655111 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 43	8218	0.11990428667308646 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 45	8029	0.11714669234585194 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 47	7850	0.11453500248037585 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 44	7758	0.1131926814321982 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 46	7643	0.11151478012197613 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 51	5748	0.08386588461875163 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 52	5177	0.07553473985234468 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 49	4432	0.06466485745134086 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 50	4329	0.06316204149522893 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 42	514	0.007499489334383845 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 41	61	0.0008900172167264875 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 53	49	0.0007149318626163588 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 40	29	0.00042312293909947766 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 56	16	0.00023344713881350492 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 39	14	0.00020426624646181682 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 54	13	0.00018967580028597273 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 59	10	0.00014590446175844057 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 55	10	0.00014590446175844057 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 37	9	0.00013131401558259652 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 58	9	0.00013131401558259652 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 36	8	0.00011672356940675246 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 38	8	0.00011672356940675246 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 60	8	0.00011672356940675246 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 35	5	7.295223087922029e-05 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 57	5	7.295223087922029e-05 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 29	2	2.9180892351688115e-05 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 21	2	2.9180892351688115e-05 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 30	2	2.9180892351688115e-05 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 24	2	2.9180892351688115e-05 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 33	1	1.4590446175844058e-05 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 23	1	1.4590446175844058e-05 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 27	1	1.4590446175844058e-05 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 31	1	1.4590446175844058e-05 
+INFO  @ Thu, 27 Aug 2026 23:26:48: 34	1	1.4590446175844058e-05 
+INFO  @ Thu, 27 Aug 2026 23:26:48: Auto determination of trim5 results: 48,43,45,47,44,46,51 
+INFO  @ Thu, 27 Aug 2026 23:26:48: Possible gRNA lengths:20 
+INFO  @ Thu, 27 Aug 2026 23:26:48: Processing 0M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:26:53: Processing 1M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:26:58: Processing 2M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:27:03: Processing 3M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:27:08: Processing 4M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:27:13: Processing 5M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:27:18: Processing 6M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:27:23: Processing 7M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:27:28: Processing 8M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:27:33: Processing 9M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:27:38: Processing 10M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:27:42: Processing 11M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:27:47: Processing 12M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:27:53: Processing 13M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:27:58: Processing 14M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:28:03: Processing 15M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:28:07: Processing 16M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:28:13: Processing 17M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:28:18: Processing 18M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:28:23: Processing 19M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:28:28: Processing 20M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:28:33: Processing 21M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:28:38: Processing 22M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:28:43: Processing 23M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:28:48: Processing 24M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:28:53: Processing 25M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:28:58: Processing 26M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:29:04: Processing 27M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:29:09: Processing 28M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:29:14: Processing 29M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:29:20: Processing 30M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:29:28: Processing 31M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:29:34: Processing 32M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:29:39: Processing 33M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:29:44: Processing 34M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:29:49: Processing 35M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:29:54: Processing 36M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:30:00: Processing 37M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:30:06: Processing 38M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:30:12: Processing 39M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:30:17: Processing 40M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:30:22: Processing 41M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:30:27: Processing 42M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:30:33: Processing 43M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:30:38: Processing 44M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:30:43: Processing 45M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:30:48: Processing 46M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:30:53: Processing 47M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:30:58: Processing 48M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:31:03: Processing 49M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:31:09: Processing 50M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:31:14: Processing 51M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:31:19: Processing 52M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:31:23: Total: 52864160. 
+INFO  @ Thu, 27 Aug 2026 23:31:23: Mapped: 27641345. 
+INFO  @ Thu, 27 Aug 2026 23:31:24: Parsing FASTQ file SRR10338908.fastq.gz... 
+INFO  @ Thu, 27 Aug 2026 23:31:24: Determining the trim-5 length of FASTQ file SRR10338908.fastq.gz... 
+INFO  @ Thu, 27 Aug 2026 23:31:24: Possible gRNA lengths:20 
+INFO  @ Thu, 27 Aug 2026 23:31:24: Processing 0M reads ... 
+INFO  @ Thu, 27 Aug 2026 23:31:26: Read length:80 
+INFO  @ Thu, 27 Aug 2026 23:31:26: Total tested reads: 100001, mapped: 69182(0.6918130818691813) 
+INFO  @ Thu, 27 Aug 2026 23:31:26: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 44	9377	0.13554103668584314 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 43	9227	0.13337284264693128 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 46	8467	0.12238732618311121 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 50	8249	0.11923621751322598 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 45	8155	0.11787748258217455 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 47	8009	0.11576710705096702 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 48	7450	0.10768697059928883 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 49	4821	0.06968575641062705 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 52	4378	0.06328235668237403 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 42	520	0.0075164060015611 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 51	261	0.003772657627706629 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 41	48	0.0006938220924517938 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 53	44	0.0006360035847474777 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 40	30	0.00043363880778237113 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 55	16	0.0002312740308172646 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 38	13	0.0001879101500390275 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 60	12	0.00017345552311294845 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 59	12	0.00017345552311294845 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 54	12	0.00017345552311294845 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 57	11	0.00015900089618686941 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 58	11	0.00015900089618686941 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 39	11	0.00015900089618686941 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 56	9	0.00013009164233471134 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 37	7	0.00010118238848255326 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 36	5	7.227313463039519e-05 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 32	5	7.227313463039519e-05 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 29	3	4.336388077823711e-05 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 24	3	4.336388077823711e-05 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 28	3	4.336388077823711e-05 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 31	2	2.8909253852158075e-05 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 30	2	2.8909253852158075e-05 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 34	2	2.8909253852158075e-05 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 33	2	2.8909253852158075e-05 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 35	1	1.4454626926079038e-05 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 27	1	1.4454626926079038e-05 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 25	1	1.4454626926079038e-05 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 21	1	1.4454626926079038e-05 
+INFO  @ Thu, 27 Aug 2026 23:31:26: 17	1	1.4454626926079038e-05 
+INFO  @ Thu, 27 Aug 2026 23:31:26: Auto determination of trim5 results: 44,43,46,50,45,47,48 
+INFO  @ Thu, 27 Aug 2026 23:31:26: Possible gRNA lengths:20 
+INFO  @ Thu, 27 Aug 2026 23:31:26: Processing 0M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:31:31: Processing 1M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:31:36: Processing 2M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:31:41: Processing 3M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:31:46: Processing 4M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:31:51: Processing 5M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:31:57: Processing 6M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:32:03: Processing 7M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:32:08: Processing 8M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:32:15: Processing 9M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:32:20: Processing 10M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:32:25: Processing 11M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:32:30: Processing 12M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:32:35: Processing 13M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:32:40: Processing 14M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:32:45: Processing 15M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:32:50: Processing 16M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:32:55: Processing 17M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:33:00: Processing 18M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:33:05: Processing 19M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:33:10: Processing 20M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:33:15: Processing 21M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:33:21: Processing 22M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:33:25: Processing 23M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:33:31: Processing 24M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:33:36: Processing 25M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:33:40: Processing 26M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:33:45: Processing 27M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:33:51: Processing 28M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:33:57: Processing 29M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:34:02: Processing 30M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:34:07: Processing 31M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:34:13: Processing 32M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:34:18: Processing 33M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:34:24: Processing 34M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:34:30: Processing 35M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:34:35: Processing 36M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:34:41: Processing 37M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:34:47: Processing 38M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:34:52: Processing 39M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:34:58: Processing 40M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:35:04: Processing 41M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:35:05: Total: 41279851. 
+INFO  @ Thu, 27 Aug 2026 23:35:05: Mapped: 23580548. 
+INFO  @ Thu, 27 Aug 2026 23:35:06: Parsing FASTQ file SRR10338909.fastq.gz... 
+INFO  @ Thu, 27 Aug 2026 23:35:06: Determining the trim-5 length of FASTQ file SRR10338909.fastq.gz... 
+INFO  @ Thu, 27 Aug 2026 23:35:06: Possible gRNA lengths:20 
+INFO  @ Thu, 27 Aug 2026 23:35:06: Processing 0M reads ... 
+INFO  @ Thu, 27 Aug 2026 23:35:08: Read length:80 
+INFO  @ Thu, 27 Aug 2026 23:35:08: Total tested reads: 100001, mapped: 69079(0.6907830921690783) 
+INFO  @ Thu, 27 Aug 2026 23:35:08: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 45	9019	0.13056066242997147 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 47	8726	0.1263191418520824 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 44	8502	0.12307647765601702 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 48	8488	0.12287381114376293 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 43	8088	0.11708333936507477 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 46	8027	0.11620029241882482 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 50	7949	0.11507115042198063 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 52	4590	0.06644566366044674 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 49	4584	0.06635880658376642 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 42	521	0.00754208949174134 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 51	300	0.004342853834016127 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 41	65	0.0009409516640368274 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 53	49	0.0007093327928893007 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 40	22	0.0003184759478278493 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 59	16	0.00023161887114752673 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 39	16	0.00023161887114752673 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 55	14	0.0002026665122540859 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 54	13	0.0001881903328073655 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 57	12	0.00017371415336064506 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 58	11	0.00015923797391392464 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 56	10	0.00014476179446720421 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 60	7	0.00010133325612704296 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 35	6	8.685707668032253e-05 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 37	6	8.685707668032253e-05 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 28	5	7.238089723360211e-05 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 38	5	7.238089723360211e-05 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 34	4	5.790471778688168e-05 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 36	4	5.790471778688168e-05 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 33	4	5.790471778688168e-05 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 27	4	5.790471778688168e-05 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 31	2	2.895235889344084e-05 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 30	2	2.895235889344084e-05 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 32	2	2.895235889344084e-05 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 26	1	1.447617944672042e-05 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 24	1	1.447617944672042e-05 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 20	1	1.447617944672042e-05 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 29	1	1.447617944672042e-05 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 21	1	1.447617944672042e-05 
+INFO  @ Thu, 27 Aug 2026 23:35:08: 18	1	1.447617944672042e-05 
+INFO  @ Thu, 27 Aug 2026 23:35:08: Auto determination of trim5 results: 45,47,44,48,43,46,50 
+INFO  @ Thu, 27 Aug 2026 23:35:08: Possible gRNA lengths:20 
+INFO  @ Thu, 27 Aug 2026 23:35:08: Processing 0M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:35:13: Processing 1M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:35:18: Processing 2M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:35:23: Processing 3M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:35:29: Processing 4M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:35:34: Processing 5M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:35:40: Processing 6M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:35:45: Processing 7M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:35:50: Processing 8M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:35:55: Processing 9M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:36:01: Processing 10M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:36:06: Processing 11M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:36:11: Processing 12M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:36:17: Processing 13M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:36:23: Processing 14M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:36:28: Processing 15M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:36:34: Processing 16M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:36:39: Processing 17M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:36:44: Processing 18M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:36:49: Processing 19M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:36:54: Processing 20M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:37:00: Processing 21M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:37:05: Processing 22M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:37:12: Processing 23M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:37:17: Processing 24M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:37:22: Processing 25M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:37:27: Processing 26M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:37:33: Processing 27M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:37:38: Processing 28M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:37:43: Processing 29M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:37:49: Processing 30M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:37:55: Processing 31M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:38:00: Processing 32M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:38:05: Processing 33M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:38:11: Processing 34M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:38:17: Processing 35M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:38:22: Processing 36M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:38:27: Processing 37M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:38:32: Processing 38M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:38:38: Processing 39M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:38:43: Processing 40M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:38:49: Processing 41M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:38:54: Processing 42M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:39:00: Processing 43M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:39:04: Total: 43850660. 
+INFO  @ Thu, 27 Aug 2026 23:39:04: Mapped: 25002636. 
+INFO  @ Thu, 27 Aug 2026 23:39:05: Parsing FASTQ file SRR10338910.fastq.gz... 
+INFO  @ Thu, 27 Aug 2026 23:39:05: Determining the trim-5 length of FASTQ file SRR10338910.fastq.gz... 
+INFO  @ Thu, 27 Aug 2026 23:39:05: Possible gRNA lengths:20 
+INFO  @ Thu, 27 Aug 2026 23:39:05: Processing 0M reads ... 
+INFO  @ Thu, 27 Aug 2026 23:39:07: Read length:80 
+INFO  @ Thu, 27 Aug 2026 23:39:07: Total tested reads: 100001, mapped: 66780(0.6677933220667793) 
+INFO  @ Thu, 27 Aug 2026 23:39:07: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 45	8487	0.127088948787062 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 44	7958	0.1191674153938305 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 46	7826	0.11719077568134172 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 43	7679	0.1149895178197065 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 47	7668	0.11482479784366577 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 48	7652	0.11458520515124289 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 51	4928	0.07379454926624739 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 49	4743	0.07102425876010782 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 50	4660	0.06978137166816412 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 52	4460	0.0667864630128781 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 42	474	0.007097933513027853 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 41	57	0.0008535489667565139 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 53	46	0.0006888289907157831 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 57	18	0.00026954177897574127 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 39	15	0.00022461814914645105 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 54	15	0.00022461814914645105 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 40	14	0.00020964360587002095 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 55	12	0.00017969451931716083 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 59	10	0.0001497454327643007 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 38	10	0.0001497454327643007 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 56	10	0.0001497454327643007 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 58	8	0.00011979634621144055 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 60	8	0.00011979634621144055 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 26	4	5.989817310572028e-05 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 35	4	5.989817310572028e-05 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 37	3	4.4923629829290206e-05 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 36	3	4.4923629829290206e-05 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 32	2	2.994908655286014e-05 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 34	1	1.497454327643007e-05 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 33	1	1.497454327643007e-05 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 27	1	1.497454327643007e-05 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 16	1	1.497454327643007e-05 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 29	1	1.497454327643007e-05 
+INFO  @ Thu, 27 Aug 2026 23:39:07: 28	1	1.497454327643007e-05 
+INFO  @ Thu, 27 Aug 2026 23:39:07: Auto determination of trim5 results: 45,44,46,43,47,48,51 
+INFO  @ Thu, 27 Aug 2026 23:39:07: Possible gRNA lengths:20 
+INFO  @ Thu, 27 Aug 2026 23:39:07: Processing 0M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:39:12: Processing 1M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:39:18: Processing 2M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:39:23: Processing 3M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:39:28: Processing 4M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:39:34: Processing 5M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:39:39: Processing 6M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:39:44: Processing 7M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:39:50: Processing 8M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:39:55: Processing 9M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:40:00: Processing 10M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:40:05: Processing 11M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:40:10: Processing 12M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:40:16: Processing 13M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:40:21: Processing 14M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:40:26: Processing 15M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:40:31: Processing 16M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:40:36: Processing 17M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:40:42: Processing 18M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:40:47: Processing 19M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:40:52: Processing 20M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:40:58: Processing 21M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:41:03: Processing 22M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:41:08: Processing 23M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:41:13: Processing 24M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:41:19: Processing 25M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:41:24: Processing 26M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:41:29: Processing 27M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:41:35: Processing 28M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:41:40: Processing 29M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:41:45: Processing 30M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:41:49: Total: 30633514. 
+INFO  @ Thu, 27 Aug 2026 23:41:49: Mapped: 15696597. 
+INFO  @ Thu, 27 Aug 2026 23:41:49: Parsing FASTQ file SRR10338911.fastq.gz... 
+INFO  @ Thu, 27 Aug 2026 23:41:49: Determining the trim-5 length of FASTQ file SRR10338911.fastq.gz... 
+INFO  @ Thu, 27 Aug 2026 23:41:49: Possible gRNA lengths:20 
+INFO  @ Thu, 27 Aug 2026 23:41:49: Processing 0M reads ... 
+INFO  @ Thu, 27 Aug 2026 23:41:51: Read length:80 
+INFO  @ Thu, 27 Aug 2026 23:41:51: Total tested reads: 100001, mapped: 67136(0.6713532864671353) 
+INFO  @ Thu, 27 Aug 2026 23:41:51: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 44	8382	0.12485104861773118 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 45	8111	0.12081446615824595 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 46	8073	0.1202484509056244 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 47	8045	0.11983138703527169 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 48	7968	0.11868446139180172 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 43	7470	0.1112666825548141 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 49	4791	0.07136260724499523 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 51	4603	0.06856232125834127 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 52	4552	0.06780266920877026 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 50	4501	0.06704301715919923 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 42	428	0.006375119161105815 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 41	42	0.0006255958055290754 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 53	42	0.0006255958055290754 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 40	17	0.00025321734985700667 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 55	10	0.00014895138226882746 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 56	10	0.00014895138226882746 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 39	9	0.0001340562440419447 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 36	9	0.0001340562440419447 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 54	9	0.0001340562440419447 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 57	8	0.00011916110581506196 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 35	7	0.00010426596758817922 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 59	6	8.937082936129647e-05 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 30	6	8.937082936129647e-05 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 60	5	7.447569113441373e-05 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 34	5	7.447569113441373e-05 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 58	5	7.447569113441373e-05 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 29	4	5.958055290753098e-05 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 38	4	5.958055290753098e-05 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 33	3	4.4685414680648235e-05 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 37	2	2.979027645376549e-05 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 32	2	2.979027645376549e-05 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 22	2	2.979027645376549e-05 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 25	1	1.4895138226882745e-05 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 18	1	1.4895138226882745e-05 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 20	1	1.4895138226882745e-05 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 26	1	1.4895138226882745e-05 
+INFO  @ Thu, 27 Aug 2026 23:41:51: 23	1	1.4895138226882745e-05 
+INFO  @ Thu, 27 Aug 2026 23:41:51: Auto determination of trim5 results: 44,45,46,47,48,43,49 
+INFO  @ Thu, 27 Aug 2026 23:41:51: Possible gRNA lengths:20 
+INFO  @ Thu, 27 Aug 2026 23:41:51: Processing 0M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:41:56: Processing 1M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:42:02: Processing 2M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:42:07: Processing 3M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:42:12: Processing 4M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:42:18: Processing 5M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:42:23: Processing 6M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:42:28: Processing 7M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:42:32: Processing 8M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:42:38: Processing 9M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:42:43: Processing 10M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:42:48: Processing 11M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:42:53: Processing 12M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:42:58: Processing 13M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:43:04: Processing 14M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:43:09: Processing 15M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:43:15: Processing 16M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:43:20: Processing 17M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:43:25: Processing 18M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:43:30: Processing 19M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:43:35: Processing 20M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:43:41: Processing 21M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:43:46: Processing 22M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:43:51: Processing 23M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:43:56: Processing 24M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:44:02: Processing 25M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:44:07: Processing 26M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:44:09: Total: 26389723. 
+INFO  @ Thu, 27 Aug 2026 23:44:09: Mapped: 13637139. 
+INFO  @ Thu, 27 Aug 2026 23:44:09: Parsing FASTQ file SRR10338912.fastq.gz... 
+INFO  @ Thu, 27 Aug 2026 23:44:09: Determining the trim-5 length of FASTQ file SRR10338912.fastq.gz... 
+INFO  @ Thu, 27 Aug 2026 23:44:09: Possible gRNA lengths:20 
+INFO  @ Thu, 27 Aug 2026 23:44:09: Processing 0M reads ... 
+INFO  @ Thu, 27 Aug 2026 23:44:11: Read length:80 
+INFO  @ Thu, 27 Aug 2026 23:44:11: Total tested reads: 100001, mapped: 67439(0.6743832561674383) 
+INFO  @ Thu, 27 Aug 2026 23:44:11: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 43	8418	0.12482391494535802 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 45	8312	0.12325212414181705 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 46	8188	0.12141342546597667 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 47	8137	0.12065718649446167 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 44	7776	0.1153042008333457 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 48	7772	0.1152448879728347 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 50	4812	0.07135337119470929 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 49	4727	0.07009297290885096 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 51	4674	0.06930707750708047 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 52	3939	0.05840833938818785 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 42	476	0.007058230400806655 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 41	58	0.0008600364774092143 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 53	30	0.0004448464538323522 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 40	25	0.00037070537819362684 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 58	11	0.00016311036640519582 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 54	10	0.00014828215127745073 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 39	9	0.00013345393614970567 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 55	9	0.00013345393614970567 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 56	8	0.00011862572102196059 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 57	7	0.00010379750589421551 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 59	6	8.896929076647044e-05 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 60	5	7.414107563872537e-05 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 38	5	7.414107563872537e-05 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 37	5	7.414107563872537e-05 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 33	4	5.931286051098029e-05 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 35	3	4.448464538323522e-05 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 36	3	4.448464538323522e-05 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 25	1	1.4828215127745073e-05 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 20	1	1.4828215127745073e-05 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 28	1	1.4828215127745073e-05 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 31	1	1.4828215127745073e-05 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 22	1	1.4828215127745073e-05 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 30	1	1.4828215127745073e-05 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 29	1	1.4828215127745073e-05 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 32	1	1.4828215127745073e-05 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 34	1	1.4828215127745073e-05 
+INFO  @ Thu, 27 Aug 2026 23:44:11: 21	1	1.4828215127745073e-05 
+INFO  @ Thu, 27 Aug 2026 23:44:11: Auto determination of trim5 results: 43,45,46,47,44,48,50 
+INFO  @ Thu, 27 Aug 2026 23:44:11: Possible gRNA lengths:20 
+INFO  @ Thu, 27 Aug 2026 23:44:11: Processing 0M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:44:17: Processing 1M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:44:22: Processing 2M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:44:27: Processing 3M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:44:33: Processing 4M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:44:38: Processing 5M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:44:43: Processing 6M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:44:49: Processing 7M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:44:54: Processing 8M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:44:59: Processing 9M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:45:04: Processing 10M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:45:09: Processing 11M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:45:15: Processing 12M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:45:21: Processing 13M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:45:26: Processing 14M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:45:31: Processing 15M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:45:37: Processing 16M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:45:42: Processing 17M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:45:47: Processing 18M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:45:53: Processing 19M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:45:59: Processing 20M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:46:04: Processing 21M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:46:09: Processing 22M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:46:14: Processing 23M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:46:20: Processing 24M reads .. 
+INFO  @ Thu, 27 Aug 2026 23:46:25: Total: 24897799. 
+INFO  @ Thu, 27 Aug 2026 23:46:25: Mapped: 13013857. 
+DEBUG @ Thu, 27 Aug 2026 23:46:26: Initial (total) size factor: 0.7815290156899755 0.7498815994663067 0.8790184180622096 0.8290220279173764 1.3205241875038265 1.5199475491156906 1.5927434887289755 
+DEBUG @ Thu, 27 Aug 2026 23:46:27: Median factor: 0.4844561373403363 0.4638252561850357 0.5494314637347031 0.5270404054383285 1.141810727595356 3.5356318302647805 3.2203815255130763 
+INFO  @ Thu, 27 Aug 2026 23:46:27: Final size factor: 0.4844561373403363 0.4638252561850357 0.5494314637347031 0.5270404054383285 1.141810727595356 3.5356318302647805 3.2203815255130763 
+INFO  @ Thu, 27 Aug 2026 23:46:28: Summary of file SRR10338906.fastq.gz: 
+INFO  @ Thu, 27 Aug 2026 23:46:28: label	Low_Ctrl_1 
+INFO  @ Thu, 27 Aug 2026 23:46:28: reads	49933559 
+INFO  @ Thu, 27 Aug 2026 23:46:28: mappedreads	26522030 
+INFO  @ Thu, 27 Aug 2026 23:46:28: totalsgrnas	119461 
+INFO  @ Thu, 27 Aug 2026 23:46:28: zerosgrnas	487 
+INFO  @ Thu, 27 Aug 2026 23:46:28: giniindex	0.09016014150774931 
+INFO  @ Thu, 27 Aug 2026 23:46:28: Summary of file SRR10338907.fastq.gz: 
+INFO  @ Thu, 27 Aug 2026 23:46:28: label	Low_Surv_1 
+INFO  @ Thu, 27 Aug 2026 23:46:28: reads	52864160 
+INFO  @ Thu, 27 Aug 2026 23:46:28: mappedreads	27641345 
+INFO  @ Thu, 27 Aug 2026 23:46:28: totalsgrnas	119461 
+INFO  @ Thu, 27 Aug 2026 23:46:28: zerosgrnas	385 
+INFO  @ Thu, 27 Aug 2026 23:46:28: giniindex	0.08834252380268692 
+INFO  @ Thu, 27 Aug 2026 23:46:28: Summary of file SRR10338908.fastq.gz: 
+INFO  @ Thu, 27 Aug 2026 23:46:28: label	Low_Ctrl_2 
+INFO  @ Thu, 27 Aug 2026 23:46:28: reads	41279851 
+INFO  @ Thu, 27 Aug 2026 23:46:28: mappedreads	23580548 
+INFO  @ Thu, 27 Aug 2026 23:46:28: totalsgrnas	119461 
+INFO  @ Thu, 27 Aug 2026 23:46:28: zerosgrnas	536 
+INFO  @ Thu, 27 Aug 2026 23:46:28: giniindex	0.09245017420807555 
+INFO  @ Thu, 27 Aug 2026 23:46:28: Summary of file SRR10338909.fastq.gz: 
+INFO  @ Thu, 27 Aug 2026 23:46:28: label	Low_Surv_2 
+INFO  @ Thu, 27 Aug 2026 23:46:28: reads	43850660 
+INFO  @ Thu, 27 Aug 2026 23:46:28: mappedreads	25002636 
+INFO  @ Thu, 27 Aug 2026 23:46:28: totalsgrnas	119461 
+INFO  @ Thu, 27 Aug 2026 23:46:28: zerosgrnas	1001 
+INFO  @ Thu, 27 Aug 2026 23:46:28: giniindex	0.09816501029618085 
+INFO  @ Thu, 27 Aug 2026 23:46:28: Summary of file SRR10338910.fastq.gz: 
+INFO  @ Thu, 27 Aug 2026 23:46:28: label	High_Ctrl 
+INFO  @ Thu, 27 Aug 2026 23:46:28: reads	30633514 
+INFO  @ Thu, 27 Aug 2026 23:46:28: mappedreads	15696597 
+INFO  @ Thu, 27 Aug 2026 23:46:28: totalsgrnas	119461 
+INFO  @ Thu, 27 Aug 2026 23:46:28: zerosgrnas	11620 
+INFO  @ Thu, 27 Aug 2026 23:46:28: giniindex	0.2257146310950423 
+INFO  @ Thu, 27 Aug 2026 23:46:28: Summary of file SRR10338911.fastq.gz: 
+INFO  @ Thu, 27 Aug 2026 23:46:28: label	High_1 
+INFO  @ Thu, 27 Aug 2026 23:46:28: reads	26389723 
+INFO  @ Thu, 27 Aug 2026 23:46:28: mappedreads	13637139 
+INFO  @ Thu, 27 Aug 2026 23:46:28: totalsgrnas	119461 
+INFO  @ Thu, 27 Aug 2026 23:46:28: zerosgrnas	26238 
+INFO  @ Thu, 27 Aug 2026 23:46:28: giniindex	0.3858622271575518 
+INFO  @ Thu, 27 Aug 2026 23:46:28: Summary of file SRR10338912.fastq.gz: 
+INFO  @ Thu, 27 Aug 2026 23:46:28: label	High_2 
+INFO  @ Thu, 27 Aug 2026 23:46:28: reads	24897799 
+INFO  @ Thu, 27 Aug 2026 23:46:28: mappedreads	13013857 
+INFO  @ Thu, 27 Aug 2026 23:46:28: totalsgrnas	119461 
+INFO  @ Thu, 27 Aug 2026 23:46:28: zerosgrnas	23427 
+INFO  @ Thu, 27 Aug 2026 23:46:28: giniindex	0.36580360843056914 
+INFO  @ Thu, 27 Aug 2026 23:46:28: Loading Rnw template file: /home/waqas/miniconda3/envs/crispr/lib/python3.11/site-packages/mageck/count_report.Rmd. 
+DEBUG @ Thu, 27 Aug 2026 23:46:28: Setting up the visualization module... 
+INFO  @ Thu, 27 Aug 2026 23:46:28: Loading Rnw template file: /home/waqas/miniconda3/envs/crispr/lib/python3.11/site-packages/mageck/fastq_template.Rnw. 
+DEBUG @ Thu, 27 Aug 2026 23:46:28: Setting up the visualization module... 

@@ -1,0 +1,9 @@
+category,term,number_of_genes,number_of_genes_in_background,ncbiTaxonId,inputGenes,preferredNames,p_value,fdr,description
+RCTM,HSA-1236974,7,89,9606,"TAP1,PSMB5,HLA-C,HLA-E,HLA-A,TAPBP,B2M","TAP1,PSMB5,HLA-C,HLA-E,HLA-A,TAPBP,B2M",5.21e-17,1.19e-13,ER-Phagosome pathway
+RCTM,HSA-983170,6,29,9606,"TAP1,HLA-C,HLA-E,HLA-A,TAPBP,B2M","TAP1,HLA-C,HLA-E,HLA-A,TAPBP,B2M",1.4e-16,1.59e-13,"Antigen Presentation: Folding, assembly and peptide loading of class I MHC"
+Process,GO:0002483,6,18,9606,"TAP1,HLA-C,HLA-E,HLA-A,TAPBP,B2M","TAP1,HLA-C,HLA-E,HLA-A,TAPBP,B2M",1.16e-17,1.82e-13,Antigen processing and presentation of endogenous peptide antigen
+Process,GO:0002474,6,28,9606,"TAP1,HLA-C,HLA-E,HLA-A,TAPBP,B2M","TAP1,HLA-C,HLA-E,HLA-A,TAPBP,B2M",1.16e-16,6.05e-13,Antigen processing and presentation of peptide antigen via MHC class I
+KEGG,hsa04612,6,64,9606,"TAP1,HLA-C,HLA-E,HLA-A,TAPBP,B2M","TAP1,HLA-C,HLA-E,HLA-A,TAPBP,B2M",1.13e-14,3.78e-12,Antigen processing and presentation
+Process,GO:0019885,5,12,9606,"TAP1,HLA-C,HLA-A,TAPBP,B2M","TAP1,HLA-C,HLA-A,TAPBP,B2M",5.24e-15,2.06e-11,Antigen processing and presentation of endogenous peptide antigen via MHC class I
+KEGG,hsa05169,6,192,9606,"TAP1,HLA-C,HLA-E,HLA-A,TAPBP,B2M","TAP1,HLA-C,HLA-E,HLA-A,TAPBP,B2M",6.62e-12,1.11e-09,Epstein-Barr virus infection
+KEGG,hsa05170,6,203,9606,"TAP1,HLA-C,HLA-E,HLA-A,TAPBP,B2M","TAP1,HLA-C,HLA-E,HLA-A,TAPBP,B2M",9.19e-12,1.11e-09,Human immunodeficiency virus 1 infection

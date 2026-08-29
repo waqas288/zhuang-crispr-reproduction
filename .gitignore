@@ -1,0 +1,72 @@
+# raw data — never commit
+*.fastq
+*.fastq.gz
+data/*.fastq*
+
+# large intermediates — regenerable
+zhuang.count.txt
+*.count.txt
+*.sgrna_summary.txt
+GeCKOv2_library_mageck.csv
+nt_controls.txt
+
+# Windows artifacts
+*:Zone.Identifier
+
+# python
+__pycache__/
+*.pyc
+
+# leftover temp from an interrupted fasterq-dump
+fasterq.tmp.*/
+
+# nextflow attempt (deferred, not part of the analysis)
+.nextflow/
+.nextflow.log*
+nfcore_results/
+
+# duplicate scripts now living in scripts/
+/01_download.sh
+/02_count.sh
+/03_test.sh
+/04_mle.sh
+make_figures.py
+fix_figures.py
+
+# MAGeCK auto-generated R report scaffolding
+*.R
+*.Rmd
+*.Rnw
+
+# library source CSVs — downloadable from Addgene
+human_geckov2_library_*.csv
+
+# normalised counts — regenerable
+zhuang.count_normalized.txt
+
+# leftover temp from an interrupted fasterq-dump
+fasterq.tmp.*/
+
+# nextflow attempt (deferred, not part of the analysis)
+.nextflow/
+.nextflow.log*
+nfcore_results/
+
+# duplicate scripts now living in scripts/
+/01_download.sh
+/02_count.sh
+/03_test.sh
+/04_mle.sh
+make_figures.py
+fix_figures.py
+
+# MAGeCK auto-generated R report scaffolding
+*.R
+*.Rmd
+*.Rnw
+
+# library source CSVs — downloadable from Addgene
+human_geckov2_library_*.csv
+
+# normalised counts — regenerable
+zhuang.count_normalized.txt

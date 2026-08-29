@@ -1,0 +1,5 @@
+Samples	baseline	NKselection
+Low_Ctrl_1	1	0
+Low_Surv_1	1	1
+Low_Ctrl_2	1	0
+Low_Surv_2	1	1
