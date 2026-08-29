@@ -17,14 +17,14 @@ set -euo pipefail
 #
 # Runtime ~14-15 min per arm. RRA takes ~1 min.
 
-printf "Samples\tbaseline\tNKselection\nLow_Ctrl_1\t1\t0\nLow_Surv_1\t1\t1\nLow_Ctrl_2\t1\t0\nLow_Surv_2\t1\t1\n" > design_low.txt
-printf "Samples\tbaseline\tNKselection\nHigh_Ctrl\t1\t0\nHigh_1\t1\t1\nHigh_2\t1\t1\n" > design_high.txt
+printf "Samples\tbaseline\tNKselection\nLow_Ctrl_1\t1\t0\nLow_Surv_1\t1\t1\nLow_Ctrl_2\t1\t0\nLow_Surv_2\t1\t1\n" > config/design_low.txt
+printf "Samples\tbaseline\tNKselection\nHigh_Ctrl\t1\t0\nHigh_1\t1\t1\nHigh_2\t1\t1\n" > config/design_high.txt
 
 echo ">>> design matrices"
-cat design_low.txt; echo; cat design_high.txt; echo
+cat config/design_low.txt; echo; cat config/design_high.txt; echo
 
-mageck mle -k zhuang.count.txt -d design_low.txt  -n low_mle
-mageck mle -k zhuang.count.txt -d design_high.txt -n high_mle
+mageck mle -k zhuang.count.txt -d config/design_low.txt  -n low_mle
+mageck mle -k zhuang.count.txt -d config/design_high.txt -n high_mle
 
 echo
 echo "NOTE: the gene_summary 'fdr' column comes from the PERMUTATION test,"
