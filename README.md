@@ -143,14 +143,16 @@ Recovering the paper's top hits at rank 1 using a *different* statistic is argua
 conda env create -f environment.yml
 conda activate crispr
 
-bash scripts/01_download.sh          # ~10 GB from SRA
+bash   scripts/01_download.sh          # ~10 GB from SRA
 python scripts/02_prepare_library.py
-bash scripts/03_count.sh
-bash scripts/04_test.sh
-python scripts/05_mle.py
+bash   scripts/03_count.sh
+bash   scripts/04_test.sh
+bash   scripts/05_mle.sh
 python scripts/06_figures.py
 python scripts/07_tcga_survival.py
-python scripts/08_string_pathways.py
+python scripts/08_paper_figures.py
+python scripts/09_string_networks.py
+python scripts/10_pathway_enrichment.py
 ```
 
 FASTQ and count files are **not** committed. `data/README.md` has the accessions and download instructions.
