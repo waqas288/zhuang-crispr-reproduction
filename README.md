@@ -160,14 +160,11 @@ FASTQ and count files are **not** committed. `data/README.md` has the accessions
 ## Repository
 
 ```
-├── LAB_NOTEBOOK.md      full working record — every decision and why
 ├── scripts/             numbered, runnable
 ├── figures/             10 figures
 ├── results/             gene summaries, enrichment tables
 └── data/README.md       accessions and download instructions
 ```
-
-**`LAB_NOTEBOOK.md` is the substantive document.** It records the reasoning behind each parameter choice, three errors made and corrected during the analysis, and the checks that caught them.
 
 ---
 
